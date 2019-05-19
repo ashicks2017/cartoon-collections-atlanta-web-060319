@@ -24,7 +24,8 @@ def summon_captain_planet(array)
  # x +=1 
 #end
  return captain_array
- array.
+ array.collect do |word|
+
 end
 
 summon_captain_planet(planeteer_calls)
