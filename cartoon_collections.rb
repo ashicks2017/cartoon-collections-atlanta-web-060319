@@ -19,5 +19,5 @@ roll_call_dwarves(dwarves)
 def summon_captain_planet(array)
   captain_array =[]
   x = 0 
-  while x
+  while x < array.length 
 end
