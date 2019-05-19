@@ -7,33 +7,25 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
 
 def roll_call_dwarves(array)
-  i = 0 
-  while i < array.length 
-  puts " #{i+1}. #{array[i]}"
-  i +=1 
+ 
 end
 end
 
 roll_call_dwarves(dwarves)
 
 def summon_captain_planet(array)
- # captain_array =[]
-  #x = 0 
-  #while x < array.length 
- # captain_array << array[x].capitalize + "!"
- # x +=1 
-#end
- # captain_array
  array.collect do |word|
  word.capitalize + "!"
-end
-end
+ end
+
+
 summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(array)
   array.any? do |word|
   word.length > 4
+ end
 end
-end
+
 summon_captain_planet(short_words)
 summon_captain_planet(assorted_words)
