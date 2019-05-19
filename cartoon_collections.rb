@@ -20,4 +20,5 @@ def summon_captain_planet(array)
   captain_array =[]
   x = 0 
   while x < array.length 
+  captain_array << array[x].capitalize + 
 end
