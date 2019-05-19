@@ -7,8 +7,9 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
 
 def roll_call_dwarves(array)
- 
-end
+  array.each_with_index do |name, index|
+   puts "#{index+1}. #{name}"
+  end
 end
 
 roll_call_dwarves(dwarves)
