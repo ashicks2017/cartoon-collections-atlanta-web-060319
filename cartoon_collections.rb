@@ -31,10 +31,10 @@ summon_captain_planet(planeteer_calls)
 def long_planeteer_calls(array)
   x = 0 
   if array.any? {|x| x < 4}
-    puts true 
+    puts "true"
     
   else 
-    puts false 
+    puts "false"
     x+= 1
 end
 end
