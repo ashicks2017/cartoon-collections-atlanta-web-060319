@@ -16,4 +16,7 @@ end
 
 roll_call_dwarves(dwarves)
 
-summon_captain_planet()
+def summon_captain_planet(array)
+  
+  
+end
