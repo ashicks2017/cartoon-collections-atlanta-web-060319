@@ -8,5 +8,6 @@ snacks = ["crackers", "gouda", "thyme"]
 
 def roll_call_dwarves(array)
   i = 0 
-  while 
+  while i < array.length 
+  puts {
 end
