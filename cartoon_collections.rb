@@ -16,3 +16,4 @@ end
 
 roll_call_dwarves(dwarves)
 
+summon_captain_planet()
