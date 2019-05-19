@@ -5,3 +5,8 @@ call_screams = ["bo", "bam", "boom", "bazam", "powzer"]
 short_words = ["puff", "go", "two"]
 cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
+
+def roll_call_dwarves(array)
+  i = 0 
+  while 
+end
