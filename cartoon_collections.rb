@@ -23,7 +23,7 @@ def summon_captain_planet(array)
  # captain_array << array[x].capitalize + "!"
  # x +=1 
 #end
- return captain_array
+ # captain_array
  array.collect do |word|
  word.capitalize + "!"
 end
