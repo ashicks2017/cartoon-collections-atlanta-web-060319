@@ -25,7 +25,7 @@ def summon_captain_planet(array)
 #end
  return captain_array
  array.collect do |word|
-
+ word.capitalize + "!"
 end
 
 summon_captain_planet(planeteer_calls)
