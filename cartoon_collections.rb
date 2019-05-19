@@ -35,6 +35,7 @@ def long_planeteer_calls(array)
     
   else 
     return false 
+    x+= 1
 end
 
 end
