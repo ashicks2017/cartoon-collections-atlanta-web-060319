@@ -30,3 +30,5 @@ end
 
 summon_captain_planet(short_words)
 summon_captain_planet(assorted_words)
+
+def find_
