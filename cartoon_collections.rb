@@ -33,5 +33,7 @@ summon_captain_planet(assorted_words)
 
 
 def find_the_cheese(array)
-array.find
+  array.find do |cheese|
+  
+
 end
