@@ -29,7 +29,8 @@ end
 summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(array)
-  
+  array.any? do |word|
+  wor
 end
 
 summon_captain_planet(short_words)
