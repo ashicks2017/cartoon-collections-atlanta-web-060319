@@ -23,8 +23,9 @@ def summon_captain_planet(array)
   captain_array << array[x].capitalize + "!"
   x +=1 
 end
+ return captain_array
 end
 
-
+summon_captain_planet(planeteer_calls)
 
 
