@@ -37,5 +37,7 @@ def long_planeteer_calls(array)
     return false 
     x+= 1
 end
-
 end
+
+summon_captain_planet(short_words)
+summon_captain_planet(assorted_words)
